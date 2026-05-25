@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const API = axios.create({
-  baseURL: "http://localhost:5000/api",
+  baseURL: "https://smart-inventory-tracker-bylr.onrender.com/api",
 });
 
 // Automatically inject JWT Bearer token into headers
